@@ -1,0 +1,7 @@
+<p>search works!</p>
+
+<div class="search-div"
+ [ngClass]="{changebackground:searchvalue !=''}">
+    <span><b>search:</b></span>
+<input type="text" (input)="changeSearchValue($event)">
+</div>
